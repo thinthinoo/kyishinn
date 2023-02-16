@@ -1,0 +1,175 @@
+.index{
+	background-color: #C9F5D9;
+}
+
+/*NAV START*/
+.nav ul{
+	display: flex;
+	list-style-type: none;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 15px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+h2{
+	font-family: 'Caveat', cursive;
+	color: white;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#header{
+	background-color: #373A36;
+}
+/*NAV END*/
+
+/*HOME START*/
+#carousel_1, #carousel_2, #carousel_3{
+	border: 1px dashed black;
+	height: 45vh;
+}
+#inner{
+	background-color: rgba(232,203,203,0.5);
+}
+#carousel_1 h1{
+	font-family: 'Satisfy', cursive;
+	font-size: 50px;
+	line-height: 100px;
+}
+/*HOME END*/
+
+/*DRAFT START*/
+#draft_1, #draft_2, #draft_3{
+	border-radius: 12px;
+	height: 50vh;
+	width: 17vw;
+	background-color: #E6D4DA;
+}
+.icon{
+	width: 100%;
+	align-items: center;
+}
+.icon1_container, .icon2_container, .icon3_container{
+	background-color: #C9F5D9;
+	width: 23%;
+	height: 7vh;/*
+	border-radius: 30px;*/
+}
+.icon1_container i, .icon2_container i, .icon3_container i{
+	line-height: 50px;
+}
+hr{
+	width: 15vw;
+}
+.draft1_text, .draft2_text, .draft3_text{
+	text-align: center;
+	padding: 50px 30px;
+}
+#draft_1 h5, #draft_2 h5, #draft_3 h5{
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 1px;
+	font-size: 25px;
+	line-height: 35px;
+}
+/*DRAFT END*/
+
+/*ABOUT ME START*/
+.me_img hr{
+	border-top: 1px dashed #373A36;
+}
+.abt_me h1, .projects h1{
+	font-family: 'Caveat', cursive;
+}
+.abt_me p{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.me_img{
+	background-color: #E6D4DA;
+	width: 30vw;
+	border: 2px outset;
+}
+.me_img img{
+	width: 15vw;
+}
+.abt{
+	justify-content: space-around;
+}
+/*ABOUT ME END*/
+
+.abt_me p, .p_text p{
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+/*PROJECTS START*/
+.project1, .projectmina{
+	border-left: 10px solid #373A36;
+	width: 90%;
+}
+.project1_text p, .classproject_text p, .projectmina_text p{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: justify;
+	width: 90%;
+}
+.classproject{
+	border-right: 10px solid #373A36;
+	width: 90%;
+}
+/*PROJECTS END*/
+
+/*CONTACT START*/
+iframe{
+	width: 80%;
+	height: 43vh;
+	float: right;
+}
+.socials{
+	width: 23vw;
+}
+.social_items a{
+	color: #373A36;
+}
+.contact1, .contact2, .contact3{
+	justify-content: space-between;
+}
+.contact2 h1{
+	align-items: center;
+	font-family: 'Caveat', cursive;
+	font-size: 75px;
+	text-decoration: underline;
+}
+/*CONTACT END*/
+
+/*FOOTER START*/
+footer{
+	background-color: #373A36;
+	margin-bottom: 0;
+}
+.footer ul{
+	display: flex;
+	list-style-type: none;
+}
+.footer ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 10px 15px;
+	letter-spacing: 2px;
+}
+.footer ul li{
+	padding: 30px 50px;
+}
+.contact h1, .contact h3{
+	font-family: 'Caveat', cursive;
+	text-align: center;
+}
+/*FOOTER END*/
+
+
+
